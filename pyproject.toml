@@ -17,3 +17,4 @@ packages = ["brain_games"]
 
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
