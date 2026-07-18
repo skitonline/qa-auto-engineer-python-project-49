@@ -10,4 +10,7 @@ build:
 package-install:
 	uv tool install dist/*.whl
 
-.PHONY: install build package-install
+lint:
+	uv run ruff check brain_games
+
+.PHONY: install build package-install lint
