@@ -3,10 +3,19 @@ from brain_games.engine import NUMBER_OF_ROUNDS, start_game
 
 RULES = 'What number is missing in the progression?'
 
+STEP_FROM = 1
+STEP_TO = 10
+
+GENERATE_FROM = 5
+GENERATE_TO = 12
+
+START_FROM = 0
+START_TO = 100
+
 def play_brain_progression():
-    step = [randint(1, 10) for _ in range(NUMBER_OF_ROUNDS)]
-    how_many_generate = [randint(5, 12) for _ in range(NUMBER_OF_ROUNDS)]
-    start = [randint(0, 100)  for _ in range(NUMBER_OF_ROUNDS)]
+    step = [randint(STEP_FROM, STEP_TO) for _ in range(NUMBER_OF_ROUNDS)]
+    how_many_generate = [randint(STEP_TO, GENERATE_TO) for _ in range(NUMBER_OF_ROUNDS)]
+    start = [randint(START_FROM, START_TO)  for _ in range(NUMBER_OF_ROUNDS)]
 
     def count_number(start, step, index):
         return start + index * step

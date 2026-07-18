@@ -12,7 +12,7 @@ def play_brain_prime():
 
     def is_prime(n):
         if n == 1:
-            return True
+            return False
         for div in range(2, n // 2 + 1):
             if n % div == 0:
                 return False
