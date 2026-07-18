@@ -9,3 +9,5 @@ build:
 
 package-install:
 	uv tool install dist/*.whl
+
+.PHONY: install build package-install
