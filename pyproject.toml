@@ -1,7 +1,10 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Five mini games"
+description = '''\"Mind Games" is a collection of five console games based on popular 
+mobile brain training apps. Each game asks questions that require correct answers. 
+After three correct answers, the game is completed; an incorrect answer ends the game and 
+prompts you to play it again.'''
 readme = "README.md"
 authors = [
   { name = "Alexander Evseev" }
