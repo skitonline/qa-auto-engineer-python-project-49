@@ -32,12 +32,6 @@ This project was built using these tools:
 make install
 ```
 
-### Start brain-games
-
-```bash
-make brain-games
-```
-
 ### Build
 
 ```bash
@@ -55,3 +49,31 @@ make package-install
 ```bash
 make lint
  ```
+
+### brain-even
+
+*Even number* - determining the parity of a number
+
+[![even](https://asciinema.org/a/gR8eodK9eWGCCtXS.svg)](https://asciinema.org/a/gR8eodK9eWGCCtXS)
+
+### brain-calc
+
+*Calculator* - calculating arithmetic expressions
+
+[![calc](https://asciinema.org/a/IX3uD3hbgB6rNuG4.svg)](https://asciinema.org/a/IX3uD3hbgB6rNuG4)
+
+### brain-gcd
+
+*GCD* - greatest common divisor of two numbers
+[![gcd](https://asciinema.org/a/AQvg8id9OZ6mbB9p.svg)](https://asciinema.org/a/AQvg8id9OZ6mbB9p)
+
+### brain-progression
+
+*Progression* - finding the missing number in a sequence
+
+[![progression](https://asciinema.org/a/SQkd6PTH3jYXMOGt.svg)](https://asciinema.org/a/SQkd6PTH3jYXMOGt)
+
+### brain-prime
+*Prime number* - checking if a number is prime
+
+[![prime](https://asciinema.org/a/O10HGulUjkWeIwol.svg)](https://asciinema.org/a/O10HGulUjkWeIwol)
