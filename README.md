@@ -35,23 +35,23 @@ make install
 ### Start brain-games
 
 ```bash
-make brain-games:
+make brain-games
 ```
 
 ### Build
 
 ```bash
-make build:
+make build
 ```
 
 ### Install package
 
 ```bash
-make package-install:
+make package-install
 ```
 
 ### Check lint
 
 ```bash
-make lint:
+make lint
  ```

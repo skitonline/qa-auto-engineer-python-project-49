@@ -13,8 +13,8 @@ def start_game(rules, questions, answers):
 
         cureent_answer = input('Your answer: ')
         if cureent_answer != answers[i]:
-            print(f"'{cureent_answer}' is wrong answer ;(. \
-                    Correct answer was '{answers[i]}'.")
+            print(f"'{cureent_answer}' is wrong answer ;(.", end=' ')
+            print(f"Correct answer was '{answers[i]}'.")
             print(f"Let's try again, {name}!")
             return 
         print('Correct!')
