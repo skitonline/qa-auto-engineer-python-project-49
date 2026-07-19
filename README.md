@@ -11,6 +11,10 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=skitonline_qa-auto-engineer-python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=skitonline_qa-auto-engineer-python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=skitonline_qa-auto-engineer-python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=skitonline_qa-auto-engineer-python-project-49)
 
+### Description
+
+"Mind Games" is a collection of five console games based on popular mobile brain training apps. Each game asks questions that require correct answers. After three correct answers, the game is completed; an incorrect answer ends the game and prompts you to play it again.
+
 ### Links
 
 This project was built using these tools:
