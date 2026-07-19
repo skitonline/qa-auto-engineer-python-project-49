@@ -31,3 +31,27 @@ This project was built using these tools:
 ```bash
 make install
 ```
+
+### Start brain-games
+
+```bash
+make brain-games:
+```
+
+### Build
+
+```bash
+make build:
+```
+
+### Install package
+
+```bash
+make package-install:
+```
+
+### Check lint
+
+```bash
+make lint:
+ ```
