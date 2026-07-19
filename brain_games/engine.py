@@ -1,7 +1,7 @@
 from brain_games.cli import welcome_user
 
-
 NUMBER_OF_ROUNDS = 3
+
 
 def start_game(rules, questions, answers):
     print('Welcome to the Brain Games!')
@@ -13,7 +13,8 @@ def start_game(rules, questions, answers):
 
         cureent_answer = input('Your answer: ')
         if cureent_answer != answers[i]:
-            print(f"'{cureent_answer}' is wrong answer ;(. Correct answer was '{answers[i]}'.")
+            print(f"'{cureent_answer}' is wrong answer ;(. \
+                    Correct answer was '{answers[i]}'.")
             print(f"Let's try again, {name}!")
             return 
         print('Correct!')

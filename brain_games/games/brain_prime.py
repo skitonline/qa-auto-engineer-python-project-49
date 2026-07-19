@@ -1,10 +1,12 @@
 from random import randint
+
 from brain_games.engine import NUMBER_OF_ROUNDS, start_game
 
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 NUM_FROM = 1
 NUM_TO = 1000
+
 
 def play_brain_prime():
     questions = [randint(NUM_FROM, NUM_TO) for _ in range(NUMBER_OF_ROUNDS)]
