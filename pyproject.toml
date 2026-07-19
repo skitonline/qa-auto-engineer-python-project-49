@@ -9,7 +9,7 @@ readme = "README.md"
 authors = [
   { name = "Alexander Evseev" }
 ]
-requires-python = ">=3.9,<3.13"
+requires-python = ">=3.9"
 dependencies = [
     "prompt>=0.4.1",
 ]
@@ -33,3 +33,6 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
+
+[sonar-project.properties]
+sonar.python.version=3.9
