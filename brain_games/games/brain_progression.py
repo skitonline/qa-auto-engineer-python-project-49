@@ -7,7 +7,6 @@ RULES = 'What number is missing in the progression?'
 STEP_FROM = 1
 STEP_TO = 10
 
-GENERATE_FROM = 5
 GENERATE_TO = 12
 
 START_FROM = 0

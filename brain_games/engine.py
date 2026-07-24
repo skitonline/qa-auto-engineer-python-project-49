@@ -11,9 +11,9 @@ def start_game(rules, questions, answers):
     for i in range(NUMBER_OF_ROUNDS):
         print(f'Question: {questions[i]}')
 
-        cureent_answer = input('Your answer: ')
-        if cureent_answer != answers[i]:
-            print(f"'{cureent_answer}' is wrong answer ;(.", end=' ')
+        current_answer = input('Your answer: ')
+        if current_answer != answers[i]:
+            print(f"'{current_answer}' is wrong answer ;(.", end=' ')
             print(f"Correct answer was '{answers[i]}'.")
             print(f"Let's try again, {name}!")
             return 
